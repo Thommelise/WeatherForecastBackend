@@ -8,9 +8,6 @@ import com.example.weatherApp.model.WeatherResponse;
 @Service
 public class WeatherService {
 
-    private static final String WEATHER_API_URL =
-            "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m";
-
     private final RestTemplate restTemplate;
 
     @Autowired
